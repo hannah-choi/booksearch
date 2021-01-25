@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;600&display=swap");
+
+body {
+    text-align: center;
+    font-family: "Vollkorn", serif;
+}
+
+li,
+ul,
+p,
+h1,
+h2,
+h3,
+h4 {
+    padding: 0;
+    margin: 0;
+    font-weight: 600;
+    list-style-type: none;
+}
+
+p {
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: gray;
+    font-family: "Karla", sans-serif;
+}
+
+.resultWrapper li {
+    width: calc(13.5%);
+    margin: 20px;
+}
+
+.resultWrapper {
+    padding: 0;
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
